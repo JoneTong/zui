@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<!--<link rel="stylesheet" href="css/zui.css" />-->
+		<link rel="stylesheet" href="layui/css/layui.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/nav-base.css" />
+		<link rel="stylesheet" href="css/CZP.css" />
+		<script src="js/rem.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="content">
+			<div class="menu-box">
+				<!--导航标题栏-->
+				<div class="menu-title">
+					<div class="switc">
+						<img src="image/back.png" alt="" />
+					</div>
+					<span>系统导航</span>
+					<div class="home">
+						<img src="image/home.png" alt="" />
+					</div>
+				</div>
+				<!--导航标题栏end-->
+				<div class="menu-body clear">
+					<!--导航左边栏-->
+					<div class="menu-body-left fl">
+						<ul class="clue-box">
+							<li class="clue clue-show">
+								<i class="menu-icon fl"></i>
+								<span class="fl">系统导航</span>
+							</li>
+							<li class="clue">
+								<i class="statistics-icon fl"></i>
+								<span class="fl">数据统计</span>
+							</li>
+						</ul>
+					</div>
+					<!--导航左边栏end-->
+					<!--导航右边栏-->
+					<div class="menu-body-right fl">
+						<div class="menu-right-piece">
+							<div class="select-box">
+								<div class="select">
+									<span>请选择</span>
+								</div>
+							</div>
+							<div class="nav">
+								<ul class="nav-box">
+									<li class="nav-list clear">
+										<i class="nav-icon fl"></i>
+										<span class="fl">国电常州电厂</span>
+										<a href="#" class="go fr"></a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="menu-right-piece">
+							<ul class="nav2-box">
+								<li class="nav2-list clear">
+									<i class="nav-icon fl"></i>
+									<span class="fl">系统监控</span>
+									<a href="system-mt.html" class="go fr"></a>
+								</li>
+								<li class="nav2-list clear">
+									<i class="nav-icon fl"></i>
+									<span class="fl">点巡检考核统计</span>
+									<a href="inspection.html" class="go fr"></a>
+								</li>
+								<li class="nav2-list clear">
+									<i class="nav-icon fl"></i>
+									<span class="fl">工作票统计</span>
+									<a href="work-ticket.html" class="go fr"></a>
+								</li>
+								<li class="nav2-list clear">
+									<i class="nav-icon fl"></i>
+									<span class="fl">操作票统计</span>
+									<a href="operation-order.html" class="go fr"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--导航右边栏end-->
+				</div>
+			</div>
+			<div class="cont">
+				<div class="cont-title-box">
+					<div class="cont-title">
+						<div class="back">
+							<img src="image/back.png" alt="" />
+						</div>
+						<div class="name">
+							<img src="image/logo.png" alt="" class="home-logo" />
+							<span>国电常州电厂可视化管控系统</span>
+						</div>
+						<div class="menu-btn">
+							<img src="image/menu-btn.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="options-box">
+					<div class="options-inner">
+						<a href="#" class="options fl">设备结构</a>
+						<a href="#" class="options fl">设备信息</a>
+						<a href="#" class="options fl">关联测项</a>
+						<a href="#" class="options fl">工作票</a>
+						<a href="#" class="options fl options-show">操作票</a>
+					</div>
+				</div>
+				<div class="bread-menu-box">
+					<div class="bread-menu">
+						<a href="">国电常州电厂</a>>
+						<a href="">运行部</a>>
+						<a href="">主厂房高压柜</a>><span>6KV 1A段</span>
+					</div>
+				</div>
+				<div class="GZP-cont">
+					<div class="form clear">
+						<div class="start fl">
+							<input type="text" placeholder="开始时间" id="sdate" /><img src="image/time.png" alt="" class="time-down" />
+						</div>
+						<div class="edate fl">
+							<input type="text" placeholder="结束时间" id="edate" /><img src="image/time.png" alt="" class="time-down" />
+						</div>
+						<input type="button" class="search" />
+					</div>
+					<div class="gzp-content layui-collapse" lay-accordion="">
+						<div class="layui-colla-item">
+							<table cellspacing="0" class="layui-colla-title">
+								<tr>
+									<th>操作票编号：</th>
+									<th>2644511224</th>
+									<th rowspan="3">审批通过</th>
+								</tr>
+								<tr>
+									<td>负责人班组：</td>
+									<td>XXX班组</td>
+								</tr>
+								<tr>
+									<td>负责人：</td>
+									<td>负责人</td>
+								</tr>
+							</table>
+							<div class="layui-colla-content">
+								<table cellspacing="0" class="layui-colla-title">
+									<tr>
+										<td>状态：</td>
+										<td>审核通过</td>
+									</tr>
+									<tr>
+										<td>操作票编号：</td>
+										<td>asdq15521</td>
+									</tr>
+									<tr>
+										<td>操作人：</td>
+										<td>XXX</td>
+									</tr>
+									<tr>
+										<td>操作人部门：</td>
+										<td>XXXX</td>
+									</tr>
+									<tr>
+										<td>操作人班组：</td>
+										<td>SSS</td>
+									</tr>
+									<tr>
+										<td>工作地点：</td>
+										<td>XXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划开始时间：</td>
+										<td>XXXXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划结束时间：</td>
+										<td>XXXXXXXXXXXXXXXXXXX</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="layui-colla-item">
+							<table cellspacing="0" class="layui-colla-title">
+								<tr>
+									<th>操作票编号：</th>
+									<th>2644511224</th>
+									<th rowspan="3">审批通过</th>
+								</tr>
+								<tr>
+									<td>负责人班组：</td>
+									<td>XXX班组</td>
+								</tr>
+								<tr>
+									<td>负责人：</td>
+									<td>负责人</td>
+								</tr>
+							</table>
+							<div class="layui-colla-content">
+								<table cellspacing="0" class="layui-colla-title">
+									<tr>
+										<td>状态：</td>
+										<td>审核通过</td>
+									</tr>
+									<tr>
+										<td>操作票编号：</td>
+										<td>asdq15521</td>
+									</tr>
+									<tr>
+										<td>操作人：</td>
+										<td>XXX</td>
+									</tr>
+									<tr>
+										<td>操作人部门：</td>
+										<td>XXXX</td>
+									</tr>
+									<tr>
+										<td>操作人班组：</td>
+										<td>SSS</td>
+									</tr>
+									<tr>
+										<td>工作地点：</td>
+										<td>XXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划开始时间：</td>
+										<td>XXXXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划结束时间：</td>
+										<td>XXXXXXXXXXXXXXXXXXX</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="layui-colla-item">
+							<table cellspacing="0" class="layui-colla-title">
+								<tr>
+									<th>操作票编号：</th>
+									<th>2644511224</th>
+									<th rowspan="3">审批通过</th>
+								</tr>
+								<tr>
+									<td>负责人班组：</td>
+									<td>XXX班组</td>
+								</tr>
+								<tr>
+									<td>负责人：</td>
+									<td>负责人</td>
+								</tr>
+							</table>
+							<div class="layui-colla-content">
+								<table cellspacing="0" class="layui-colla-title">
+									<tr>
+										<td>状态：</td>
+										<td>审核通过</td>
+									</tr>
+									<tr>
+										<td>操作票编号：</td>
+										<td>asdq15521</td>
+									</tr>
+									<tr>
+										<td>操作人：</td>
+										<td>XXX</td>
+									</tr>
+									<tr>
+										<td>操作人部门：</td>
+										<td>XXXX</td>
+									</tr>
+									<tr>
+										<td>操作人班组：</td>
+										<td>SSS</td>
+									</tr>
+									<tr>
+										<td>工作地点：</td>
+										<td>XXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划开始时间：</td>
+										<td>XXXXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划结束时间：</td>
+										<td>XXXXXXXXXXXXXXXXXXX</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="layui-colla-item">
+							<table cellspacing="0" class="layui-colla-title">
+								<tr>
+									<th>操作票编号：</th>
+									<th>2644511224</th>
+									<th rowspan="3">审批通过</th>
+								</tr>
+								<tr>
+									<td>负责人班组：</td>
+									<td>XXX班组</td>
+								</tr>
+								<tr>
+									<td>负责人：</td>
+									<td>负责人</td>
+								</tr>
+							</table>
+							<div class="layui-colla-content">
+								<table cellspacing="0" class="layui-colla-title">
+									<tr>
+										<td>状态：</td>
+										<td>审核通过</td>
+									</tr>
+									<tr>
+										<td>操作票编号：</td>
+										<td>asdq15521</td>
+									</tr>
+									<tr>
+										<td>操作人：</td>
+										<td>XXX</td>
+									</tr>
+									<tr>
+										<td>操作人部门：</td>
+										<td>XXXX</td>
+									</tr>
+									<tr>
+										<td>操作人班组：</td>
+										<td>SSS</td>
+									</tr>
+									<tr>
+										<td>工作地点：</td>
+										<td>XXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划开始时间：</td>
+										<td>XXXXXXXXXX</td>
+									</tr>
+									<tr>
+										<td>计划结束时间：</td>
+										<td>XXXXXXXXXXXXXXXXXXX</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="layui/layui.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/CZP.js"></script>
+
+</html>

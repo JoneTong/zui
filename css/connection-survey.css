@@ -1,0 +1,113 @@
+.options-box{
+	width:100%;height: 0.88rem;position: relative;overflow: hidden;background-color: #fff;
+}
+.options-inner{
+	height: 100%;padding: 0.11rem 0.24rem 0 ;position: absolute;top:0;left: -4rem;width:10.48rem;
+}
+.options{
+	display: inline-block;color:#0090ff;background-color: #fff;font-size: 0.26rem;box-shadow: 0 1px 3px rgba(0,0,0,0.2);border-radius: 0.4rem;width:1.8rem;height:0.66rem;text-align: center;line-height: 0.66rem;
+}
+.options:not(:last-child){
+	margin-right: 0.2rem;
+}
+.options-show{
+	background-color: #0090ff;color:#fefefe
+}
+.bread-menu-box{
+	width: 100%;margin: 0.2rem 0;background-color: #fff;position: relative;height: 0.66rem;
+}
+.bread-menu{
+	position: absolute;padding: 0 0.22rem;width: 100%;height: 100%;line-height: 0.66rem;font-size: 0.26rem;
+}
+.bread-menu a{
+	color:#666;font-size: 0.26rem;
+}
+.bread-menu span{
+	color:#0090ff;font-size: 0.26rem;
+}
+.key1-box{
+	width:100%;height: 0.88rem;padding: 0 0.3rem;
+}
+.key1-box ul{
+	width: 100%;height: 100%;background-color: #fff;border-top-left-radius: 6px;border-top-right-radius: 6px;overflow: hidden;
+}
+.key1{
+	width: 33.3333%;height: 100%;line-height: 0.88rem;text-align: center;color: #0090ff;border-bottom: 1px solid #ccc;font-size: 0.26rem;transition: all 0.5s;
+}
+.key1:not(:last-child){
+	border-right: 1px solid #ccc;
+}
+.key1-show{
+	background-color: #0090ff;color:#fff;border-bottom: 0;
+}
+.ke2-box{
+	width: 100%;background-color: #fff;border-top-left-radius: 6px;border-top-right-radius: 6px;overflow: hidden;
+}
+.key2{
+	width: 50%;text-align: center;
+}
+.key2-icon{
+	width: 0.58rem;height: 0.58rem;margin: 0.2rem auto 0.1rem;
+}
+.key2 span{
+	font-size:0.22rem ;color:#333;
+}
+.SS-key{
+	background: url(../image/SS-icon.png)no-repeat;background-position-x: 100%;background-size:200% ;
+}
+.LX-key{
+	background: url(../image/LX-icon.png)no-repeat;background-position-x: 100%;background-size:200% ;
+}
+.key2-show .key2-icon{
+	background-position-x: 0;
+}
+.key2-show span{
+	color:#0090ff;
+}
+.data-box{
+	width:100%;height: 8rem;position: relative;
+}
+.key1-data{
+	width:100%;height: 100%;position: absolute;top:0;left: 0;z-index: 0;
+}
+.key2-data{
+	width:100%;height: 100%;background-color: #fff;position: absolute;top:0;left: 0;z-index: 0;
+}
+.key1-data:nth-of-type(1){
+	z-index: 9;
+}
+.SS-data{
+	z-index: 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

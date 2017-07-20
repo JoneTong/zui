@@ -1,0 +1,36 @@
+.marked{
+	width: 0.44rem;height: 0.52rem;background: url(../image/abnormal.png) no-repeat ;position: absolute;top:20%;left:10%;background-size:100%
+}
+.hint-box{
+	position: absolute;width:4.7rem;left: -2rem;border-radius: 6px;overflow: hidden;
+}
+.hint-title{
+	text-align: center;color:#147cff;font-size: 0.22rem;padding: 0.1rem 0;background-color: #fff;
+}
+.hint-show-box{
+	text-align: center;padding: 0.14rem 0;background-color: #f0f0f0;
+}
+.hint-a{
+	display: inline-block;width: 0.76rem;position: relative;text-align: center;
+	}
+.hint-a:not(:last-child){
+	margin-right: 0.3rem;
+}
+.hint-a img{
+	margin-bottom: 0.14rem;
+}
+.hint-num{
+	position: absolute;top:-0.08rem;right: -0.08rem;display: block;color:#fff;font-size: 0.18rem;border-radius: 0.18rem;height: 0.3rem;text-align: center;line-height: 0.3rem;padding: 0 0.08rem;
+}
+.hint-a span:nth-of-type(2){
+	font-size: 0.18rem;color:#535353
+}
+.yz .hint-num{
+	background-color: #f50116;
+}
+.yc .hint-num{
+	background-color: #f86200;
+}
+.gzp .hint-num,.czp .hint-num{
+	background-color: #1baaff;
+}
